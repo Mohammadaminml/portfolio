@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1586" height="1000" viewBox="0 0 1586 1000" role="img" aria-labelledby="title desc">
+  <title id="title">FreelancerFlow dashboard</title>
+  <desc id="desc">A stylized Persian freelancer management dashboard</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071a2c"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#06131f" flood-opacity=".34"/></filter>
+  </defs>
+  <rect width="1586" height="1000" fill="url(#bg)"/>
+  <circle cx="1325" cy="110" r="310" fill="#2dd4bf" opacity=".12"/><circle cx="180" cy="930" r="360" fill="#60a5fa" opacity=".1"/>
+  <g filter="url(#shadow)">
+    <rect x="116" y="92" width="1354" height="816" rx="34" fill="#f5f7fa"/>
+    <rect x="1216" y="92" width="254" height="816" rx="34" fill="#10283c"/>
+    <rect x="1216" y="245" width="254" height="62" fill="#163f50"/>
+    <circle cx="1411" cy="158" r="25" fill="#2dd4bf"/><text x="1368" y="169" fill="#fff" font-family="Arial,sans-serif" font-size="30" font-weight="700">FF</text>
+    <g fill="#9cb0bd"><rect x="1270" y="270" width="136" height="10" rx="5"/><rect x="1305" y="355" width="101" height="10" rx="5"/><rect x="1286" y="425" width="120" height="10" rx="5"/><rect x="1317" y="495" width="89" height="10" rx="5"/><rect x="1298" y="565" width="108" height="10" rx="5"/></g>
+    <text x="1097" y="172" text-anchor="end" fill="#10283c" font-family="Arial,sans-serif" font-size="34" font-weight="700">FreelancerFlow</text>
+    <text x="1097" y="211" text-anchor="end" fill="#738295" font-family="Arial,sans-serif" font-size="18">Workspace overview</text>
+    <g>
+      <rect x="170" y="263" width="287" height="144" rx="22" fill="#fff"/><rect x="485" y="263" width="287" height="144" rx="22" fill="#fff"/><rect x="800" y="263" width="287" height="144" rx="22" fill="#fff"/>
+      <circle cx="409" cy="310" r="18" fill="#dbeafe"/><circle cx="724" cy="310" r="18" fill="#ccfbf1"/><circle cx="1039" cy="310" r="18" fill="#ffedd5"/>
+      <text x="205" y="323" fill="#718096" font-family="Arial,sans-serif" font-size="17">Active projects</text><text x="205" y="373" fill="#10283c" font-family="Arial,sans-serif" font-size="42" font-weight="700">12</text>
+      <text x="520" y="323" fill="#718096" font-family="Arial,sans-serif" font-size="17">Open tasks</text><text x="520" y="373" fill="#10283c" font-family="Arial,sans-serif" font-size="42" font-weight="700">28</text>
+      <text x="835" y="323" fill="#718096" font-family="Arial,sans-serif" font-size="17">Clients</text><text x="835" y="373" fill="#10283c" font-family="Arial,sans-serif" font-size="42" font-weight="700">09</text>
+    </g>
+    <rect x="170" y="445" width="602" height="389" rx="22" fill="#fff"/><text x="215" y="500" fill="#10283c" font-family="Arial,sans-serif" font-size="22" font-weight="700">Project progress</text>
+    <g fill="none" stroke-linecap="round" stroke-width="15"><path d="M230 754L320 685 407 710 500 590 595 624 704 518" stroke="#dfe8ee"/><path d="M230 754L320 685 407 710 500 590 595 624 704 518" stroke="#14b8a6" stroke-dasharray="380 190"/></g>
+    <rect x="800" y="445" width="287" height="389" rx="22" fill="#fff"/><text x="838" y="500" fill="#10283c" font-family="Arial,sans-serif" font-size="22" font-weight="700">Recent tasks</text>
+    <g fill="#eef2f5"><rect x="838" y="545" width="210" height="54" rx="12"/><rect x="838" y="620" width="210" height="54" rx="12"/><rect x="838" y="695" width="210" height="54" rx="12"/></g><g fill="#14b8a6"><circle cx="1018" cy="572" r="8"/><circle cx="1018" cy="647" r="8"/><circle cx="1018" cy="722" r="8"/></g>
+  </g>
+</svg>
