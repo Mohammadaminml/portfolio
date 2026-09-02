@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowLeft, FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
 import projects from "../data/projects";
 import { cardReveal, fadeUp, stagger, viewport } from "../animations/motion";
 
@@ -30,9 +30,13 @@ export default function Projects() {
               <div className="case-tech-list">
                 {project.tech.map((tech) => <span key={tech}>{tech}</span>)}
               </div>
-              <Link to={`/projects/${project.slug}`} aria-label={`مطالعه پروژه ${project.title}`}>
-                مطالعه Case Study <FaArrowLeft />
-              </Link>
+              <div className="case-card-actions">
+                <Link to={`/projects/${project.slug}`} aria-label={`مطالعه پروژه ${project.title}`}>
+                  مطالعه پروژه <FaArrowLeft />
+                </Link>
+                {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noreferrer">نسخه زنده <FaArrowUpRightFromSquare /></a>}
+                {project.githubUrl && <a href={project.githubUrl} target="_blank" rel="noreferrer" aria-label={`مخزن GitHub پروژه ${project.title}`}><FaGithub /> GitHub</a>}
+              </div>
               </div>
             </motion.article>
           ))}

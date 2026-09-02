@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from "react-router-dom";
-import { FaArrowLeft, FaArrowRight, FaCheck } from "react-icons/fa6";
+import { FaArrowLeft, FaArrowRight, FaArrowUpRightFromSquare, FaCheck, FaGithub } from "react-icons/fa6";
 import projects, { getProjectBySlug } from "../data/projects";
 
 export default function ProjectDetail() {
@@ -21,6 +21,10 @@ export default function ProjectDetail() {
               <p>{project.eyebrow} · {project.index}</p>
               <h1>{project.title}</h1>
               <p className="case-lead">{project.description}</p>
+              {(project.liveUrl || project.githubUrl) && <div className="case-hero-actions">
+                {project.liveUrl && <a href={project.liveUrl} target="_blank" rel="noreferrer">مشاهده نسخه زنده <FaArrowUpRightFromSquare /></a>}
+                {project.githubUrl && <a href={project.githubUrl} target="_blank" rel="noreferrer"><FaGithub /> مشاهده در GitHub</a>}
+              </div>}
             </div>
             <dl>
               <div><dt>نقش من</dt><dd>{project.role}</dd></div>

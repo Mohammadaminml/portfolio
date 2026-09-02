@@ -183,7 +183,7 @@
   .projects-header>p:last-child { font-size:.95rem; }
   .case-grid { grid-template-columns:1fr; margin-top:2.5rem; }
   .case-card { grid-template-rows:13.5rem 1fr; min-height:35rem; padding:0; border-radius:26px 14px 26px 14px; }.case-card-content { padding:1.35rem 1.4rem 1.5rem; }
-  .case-card h2 { margin-top:1.8rem; font-size:1.65rem; }.case-card-content>p { font-size:.92rem; }
+  .case-card h2 { min-height:0; margin-top:1.8rem; font-size:1.65rem; }.case-card-content>p { min-height:0; font-size:.92rem; }
   .case-detail { overflow:hidden; }.case-hero { padding:7rem 0 4rem; }.case-back { font-size:.85rem; }.case-hero-grid { margin-top:2.5rem; }.case-hero h1 { font-size:2.8rem; line-height:1.4; }.case-lead { font-size:.95rem; }.case-cover { margin-top:3rem; margin-bottom:-8rem; border-radius:26px 14px 26px 14px; }
   .case-body { padding-top:11rem; padding-bottom:4rem; }.case-story { grid-template-columns:1fr; gap:1rem; padding:3rem 0; }.case-story h2,.case-outcomes h2 { font-size:2.15rem; }.case-story div>p:last-child { font-size:.95rem; }
   .case-decisions { margin-top:2rem; padding:2rem 1.4rem; border-radius:28px 14px 28px 14px; }.case-decisions h2 { font-size:2rem; }.case-decisions li { grid-template-columns:2.2rem 1fr; }
